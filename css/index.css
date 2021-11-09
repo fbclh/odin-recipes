@@ -20,6 +20,10 @@ header {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* .logo {
   max-height: 750px;
   max-width: 750px;
@@ -30,25 +34,24 @@ header {
   text-align: center;
   color: #e3b261;
   font-size: 3rem;
-  margin-top: .25rem;
-  margin-bottom: .25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Main Content */
-main {
+.main-content {
   display: flex;
   justify-content: space-evenly;
 }
 
-img {
+.front-images {
   max-height: 250px;
   max-width: 250px;
-  border-radius: 5px;
 }
 
-p {
+ p {
   text-align: center;
-  color: #a78347;
+  color: #60410e;
 }
 
 /* Footer */
@@ -58,4 +61,36 @@ footer {
   padding: 1rem;
   color: white;
   margin-top: 15rem;
+}
+
+/* ------------------------- */
+
+/* .secondary-images {
+  max-height: 700px;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+} */
+
+.secondary-content {
+  
+  /* max-height: 700px; */
+  max-width: 750px; 
+  display: block;
+  margin: auto;
+  
+}
+
+.secondary-content p {
+  text-align: left;
+  color: #C9A872;
+}
+
+.secondary-content li {
+  text-align: left;
+  color: #C9A872;
+}
+
+.secondary-content {
+  color: #60410E;
 }
